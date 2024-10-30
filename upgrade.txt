@@ -1,0 +1,15 @@
+
+== Upgrading from 0.1.7 to 0.1.8 ==
+
+To upgrade from version 0.1.7 you simply need to copy the contents of the zip archive over the old version of the plugin.
+Important !!! If you have the directory "contentpaybyzong" under the WP plugins directory you MUST delete it.
+
+Activate the new version, it will use the same configuration as the previous version however we have added a new setup option called "Secret Key"
+You can leave this option blank and the plugin will work as before BUT the will NOT be secure. In order to secure it you should enter
+a Secret Key here. 
+You will then need to update the handler URL in the Dashboard of the Zong Developer Network (http://developer.zong.com) and
+add the Secret Key query string parameter to the end of the handler URL as described in the readme file (?secretKey=MySecretKey)
+You can also find the correct URL to use at the bottom of the plugin settings page.
+
+If you would like even more security you can protect your handler with the IP address of our server which you can find in your access logs.
+

@@ -1,0 +1,62 @@
+span.contentpaybyzong_click{
+	cursor:pointer;
+}
+table.contentpaybyzong{
+	background-image: url("img/zong-contentpaybyzong.gif");
+	margin-top:10px;
+	display:none;
+	height:185px;
+}
+td.contentpaybyzong_flag{
+	text-align:center;
+}
+td.contentpaybyzong_flag img{
+	margin:3px;
+	cursor:pointer;
+	border:1px solid #666;
+	padding:0px;
+}
+td.contentpaybyzong_info{
+	background-color:transparent;
+}
+td.contentpaybyzong_info div{
+	font-size:10px;
+	background-color:#FFF;
+	border:1px solid #C0C0C0;
+	margin:3px;
+	padding:1px 3px;
+	height:80px;
+}
+td.contentpaybyzong_input input.contentpaybyzong_codeinput{
+	border:1px solid #999;
+	background-color:#FFFFFF;
+}
+td.contentpaybyzong_input input.contentpaybyzong_go{
+	vertical-align:top;
+	background-color:transparent;
+}
+td.contentpaybyzong_logo{
+
+	padding-left:4px;
+}
+td.contentpaybyzong_input{
+	text-align:right;
+	vertical-align:middle;
+}
+div.contentpaybyzong_button{
+	margin-top:10px;
+	cursor:pointer;
+}
+.clearer {
+	clear:both;
+	font-family:monospace;
+	font-size:1px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	height:1px;
+	line-height:1px;
+	width:1px;
+}
